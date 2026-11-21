@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>InSilico</groupId>
+    <artifactId>VegaResources-Cddd</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>VegaResources-Cddd</name>
+    <description>
+        Serialized CDDD model (descriptor/cddd.zip), extracted at runtime by insilico.core.python.CdddDescriptors
+        to compute the CDDD descriptors. Resources only, no code: kept out of the Core so that the Core jar stays
+        light. Declare it only in the model modules that use CDDD descriptors.
+    </description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>protoqsar-maven-releases</id>
+            <url>https://nexus.protoqsar.com/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
+
+</project>
