@@ -22,7 +22,7 @@ the default compile scope, not `optional`, so that it reaches `VegaModels-All` a
 <dependency>
     <groupId>InSilico</groupId>
     <artifactId>VegaResources-Cddd</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 </dependency>
 ```
 
